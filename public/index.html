@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/index.js"></script>
+
+    <title>FTP</title>
+</head>
+
+<body>
+<div class="page">
+    <h5>FTP Client by SemD</h5>
+    <form class="login-form">
+        <input type="text" class="url" placeholder="Address" value="localhost" required autofocus>
+        <input type="number" class="port" placeholder="port" value="21">
+        <input type="text" class="username" placeholder="Username" value="anonymous">
+        <input type="password" class="passwd" placeholder="Password" value="anonymous@">
+        <button class="form-btn" type="submit" name="action">Connect</button>
+    </form>
+</div>
+
+<div class="file-viewer">
+    <div class="flex-row">
+        <div class="ftp">
+            <a href="#">ewgf</a>
+            <a href="#">ewgf</a>
+            <span class="ftp-viewer"></span>
+        </div>
+        <div class="total">
+            <span class="disks"></span>
+            <span class="total-viewer"></span>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
